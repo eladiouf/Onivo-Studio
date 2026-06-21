@@ -17,6 +17,7 @@ This repository is the Obsidian vault.
 - `Operations Index` for how the studio runs
 - `Decision Index` for major choices
 - `Release Board` for publishing readiness
+- `Template Index` when creating new structured notes
 
 ## Simple Daily Workflow
 
@@ -44,3 +45,10 @@ This repository is the Obsidian vault.
 - Prefer links between notes instead of repeating text.
 - Put project-specific material under `vault/04 Projects` unless it is reusable studio knowledge.
 - Use the repo root as the single source of truth for studio memory.
+
+## Installed Plugin Usage
+
+- `Dataview` powers the live indexes in portfolio, decisions, research, meetings, and releases.
+- `Templater` should be pointed at `vault/10 Templates`.
+- `Kanban` can be used later for roadmap and release boards without changing the current note model.
+- `Tasks` and `Excalidraw` are optional layers on top of the same vault structure.

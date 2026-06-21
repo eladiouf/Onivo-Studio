@@ -29,6 +29,14 @@ To open it:
 
 Beginner onboarding lives in `vault/00 Home/Start Here - Obsidian.md`.
 
+Recommended community plugins for this vault:
+
+- `Dataview`
+- `Templater`
+- `Kanban`
+- `Tasks`
+- `Excalidraw`
+
 ## Structure
 
 - `governance/` - constitution, roles, councils, authority model
