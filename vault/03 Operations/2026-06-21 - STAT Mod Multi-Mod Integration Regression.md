@@ -1,7 +1,7 @@
 ---
 type: risk
-status: Open
-severity: S1-Critical
+status: Monitoring
+severity: S2-High
 owner: Verification Cell
 date: 2026-06-21
 next_review: 2026-06-22
@@ -31,6 +31,15 @@ An apparently local change can break combat, perk routing, gating, or runtime co
 
 - execute [[2026-06-21 - STAT Mod Verification Baseline Sweep Mission]]
 - keep major integrations behind explicit compat surfaces
+- 2026-06-21: baseline `test` and `build` passed on the active branch
+
+## Status Update
+
+Downgraded from `S1-Critical` to `S2-High` after the current branch passed baseline `test` and `build`. The risk remains materially open because:
+
+- no fresh `runClient` validation was recorded in the current studio pass
+- mission `M5` still owns Iron's Spellbooks runtime integration tests and save migration checks
+- the historical broad completion claim still needs separation from current governed truth
 
 ## Escalation
 

@@ -1,10 +1,10 @@
 # Meetings Index
 
-Use this page to track review, planning, innovation, and release meetings.
+Use this page to track review, planning, plenary, and ops session records.
 
 ```dataview
-TABLE date, meeting_type, status, related_projects
-FROM "vault/03 Operations"
-WHERE type = "meeting" AND file.name != "Meetings Index"
+TABLE date, type, session_type, meeting_type, status, related_projects
+FROM "vault"
+WHERE (type = "meeting" OR type = "meeting-minutes" OR type = "ops-review") AND file.name != "Meetings Index"
 SORT date DESC
 ```

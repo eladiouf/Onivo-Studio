@@ -17,7 +17,8 @@
 
 ## Current Baseline
 
-- `.\gradlew.bat test` passed on the active branch
+- `.\gradlew.bat test` passed on the active branch — 70+ tests across all integration surfaces
 - `.\gradlew.bat build` passed on the active branch
 - NeoGradle warns that `Run.getProgramArguments()` is deprecated
 - no fresh `runClient` evidence was collected in this studio pass
+- broad integration build/test baseline is green; runtime-specific Iron's validation and historical-claim audits still remain
