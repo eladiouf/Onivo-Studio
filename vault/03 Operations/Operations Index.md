@@ -1,6 +1,7 @@
 # Operations Index
 
 - [[Meetings Index]]
+- [[Mission Index]]
 - workflow lifecycle
 - mission types
 - spec flow

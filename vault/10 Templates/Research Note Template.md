@@ -1,6 +1,6 @@
 ---
 type: research
-status: active
+status: Active
 area:
 date:
 source_type:

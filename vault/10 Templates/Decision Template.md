@@ -1,6 +1,6 @@
 ---
 type: decision
-status: proposed
+status: Proposed
 decision_id:
 date:
 area:

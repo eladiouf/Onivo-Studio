@@ -9,6 +9,9 @@ Welcome to the `Onivo Studio` vault.
 ## Main Navigation
 
 - [[Current Portfolio]]
+- [[Weekly Strategy Board]]
+- [[Mission Radar]]
+- [[Risk Register]]
 - [[Governance Index]]
 - [[Strategy Index]]
 - [[Operations Index]]

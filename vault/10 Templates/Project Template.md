@@ -1,7 +1,7 @@
 ---
 type: project
-status: proposed
-stage: discovery
+status: Proposed
+stage: Discovery
 owner:
 repository:
 genre:

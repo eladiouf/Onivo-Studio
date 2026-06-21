@@ -1,6 +1,15 @@
 # Studio Scoreboards
 
-The studio scoreboard layer should eventually track:
+The studio scoreboard layer tracks pressure, flow, and release readiness.
+
+## Vault Surfaces
+
+- `Weekly Strategy Board`
+- `Mission Radar`
+- `Risk Register`
+- `Current Portfolio`
+
+## Core Metrics
 
 - active mission count
 - blocked mission count
@@ -8,3 +17,7 @@ The studio scoreboard layer should eventually track:
 - postmortem backlog
 - project phase distribution
 - quality gate pressure
+
+## Rule
+
+If a metric matters repeatedly, it should eventually become a durable vault query rather than staying implicit.

@@ -1,6 +1,7 @@
 {
   "types": {
     "aliases": "aliases",
+    "allowed_surface": "text",
     "area": "text",
     "actions": "multitext",
     "attendees": "multitext",
@@ -8,17 +9,25 @@
     "date": "date",
     "decision_id": "text",
     "decisions": "multitext",
+    "escalation_rule": "text",
+    "focus_areas": "multitext",
     "genre": "text",
     "meeting_type": "text",
+    "mission_type": "text",
+    "next_review": "date",
     "owner": "text",
     "owners": "multitext",
     "platform": "text",
+    "priority": "text",
     "project": "text",
     "related_projects": "multitext",
     "repository": "text",
+    "review_window": "text",
+    "severity": "text",
     "source_type": "text",
     "stage": "text",
     "status": "text",
+    "success_condition": "text",
     "surface": "text",
     "tags": "tags",
     "TQ_explain": "checkbox",
@@ -43,7 +52,9 @@
     "TQ_show_toolbar": "checkbox",
     "TQ_show_tree": "checkbox",
     "TQ_show_urgency": "checkbox",
+    "target_project": "text",
     "target_window": "text",
-    "type": "text"
+    "type": "text",
+    "verification_path": "text"
   }
 }

@@ -14,6 +14,9 @@ This repository is the Obsidian vault.
 
 - `Studio Home` for global navigation
 - `Current Portfolio` for active projects
+- `Weekly Strategy Board` for founder-level steering
+- `Mission Radar` for active execution tracking
+- `Risk Register` for durable operational risk
 - `Operations Index` for how the studio runs
 - `Decision Index` for major choices
 - `Release Board` for publishing readiness

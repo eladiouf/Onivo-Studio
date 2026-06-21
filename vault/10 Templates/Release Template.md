@@ -1,6 +1,6 @@
 ---
 type: release
-status: planned
+status: Planned
 project:
 surface:
 target_window:

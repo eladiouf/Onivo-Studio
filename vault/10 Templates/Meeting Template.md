@@ -1,6 +1,6 @@
 ---
 type: meeting
-status: scheduled
+status: Scheduled
 meeting_type: review
 date:
 owners: []
