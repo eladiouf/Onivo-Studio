@@ -2,6 +2,10 @@
 
 Welcome to the `Onivo Studio` vault.
 
+## First Step
+
+- [[Start Here - Obsidian]]
+
 ## Main Navigation
 
 - [[Current Portfolio]]

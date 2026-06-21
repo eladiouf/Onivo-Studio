@@ -16,6 +16,19 @@ This repository is not a single mod project.
 
 It is the durable control plane that future mod repositories plug into.
 
+## Obsidian Setup
+
+This repository is also the studio Obsidian vault.
+
+To open it:
+
+1. Install `Obsidian`
+2. Choose `Open folder as vault`
+3. Select the repository root
+4. Open `vault/00 Home/Studio Home.md`
+
+Beginner onboarding lives in `vault/00 Home/Start Here - Obsidian.md`.
+
 ## Structure
 
 - `governance/` - constitution, roles, councils, authority model
