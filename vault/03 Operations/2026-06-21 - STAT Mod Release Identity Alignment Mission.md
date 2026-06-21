@@ -1,6 +1,6 @@
 ---
 type: mission
-status: Planned
+status: Completed
 mission_type: Release Mission
 owner: Product Cell
 target_project: STAT Mod
@@ -9,7 +9,7 @@ success_condition: release-facing identity matches the active NeoForge 1.21.1 br
 verification_path: doc audit plus release track update
 escalation_rule: escalate if runtime truth is ambiguous across code, metadata, and public docs
 priority: P1
-next_review: 2026-06-22
+next_review: 2026-06-21
 related_projects:
   - STAT Mod
 tags:
@@ -38,6 +38,19 @@ Align `README`, release-facing wording, and studio release surfaces with the act
 ## Verification
 
 Check `README.md`, build metadata, and [[2026-06-21 - STAT Mod Release Readiness Track]] for consistency.
+
+## Outcome
+
+Completed through project commit `e0e1073` in `MOD_MINECRAFT_STAT`.
+
+The release-facing `README.md` now reflects:
+
+- `Minecraft 1.21.1`
+- `NeoForge 21.1.228 or above`
+- `Java 21`
+- the active `neoforge-1.21.1` development branch
+
+`gradle.properties` was also aligned to `mod_license=MIT` to match the repository license file.
 
 ## Escalation Notes
 

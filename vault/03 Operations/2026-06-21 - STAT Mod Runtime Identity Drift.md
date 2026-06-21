@@ -1,10 +1,10 @@
 ---
 type: risk
-status: Open
+status: Monitoring
 severity: S2-High
 owner: Product Cell
 date: 2026-06-21
-next_review: 2026-06-22
+next_review: 2026-06-23
 related_projects:
   - STAT Mod
 tags:
@@ -16,7 +16,7 @@ tags:
 
 ## Description
 
-The active branch and build files indicate `NeoForge 1.21.1`, while parts of the public-facing project identity still describe the older Forge 1.20.1 line.
+The core release-facing identity has been realigned to `NeoForge 1.21.1`, but legacy technical documentation can still carry older Forge 1.20.1 framing.
 
 ## Impact
 
@@ -24,12 +24,13 @@ Players, testers, and future agents can act on the wrong runtime assumptions.
 
 ## Signals
 
-- root `README.md` still advertises Forge 1.20.1
+- `README.md` is now aligned with the active branch
+- some technical docs such as `ARCHITECTURE.md` still use older Forge 1.20.1 wording
 - `gradle.properties` and `build.gradle` target NeoForge 1.21.1
 
 ## Mitigation
 
-- execute [[2026-06-21 - STAT Mod Release Identity Alignment Mission]]
+- keep [[2026-06-21 - STAT Mod Release Identity Alignment Mission]] closed as the release-facing fix
 - keep [[2026-06-21 - STAT Mod NeoForge Runtime Truth]] as the current operating decision
 
 ## Escalation
