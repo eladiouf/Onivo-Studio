@@ -20,6 +20,15 @@ WHERE type = "strategy_review"
 SORT date DESC
 ```
 
+## Active Decisions
+
+```dataview
+TABLE date, area, status, related_projects
+FROM "vault/08 Decisions"
+WHERE type = "decision"
+SORT date DESC
+```
+
 ## Highest Attention Risks
 
 ```dataview

@@ -2,6 +2,7 @@
 
 - [[Meetings Index]]
 - [[Mission Index]]
+- [[Live Operations Cadence]]
 - workflow lifecycle
 - mission types
 - spec flow

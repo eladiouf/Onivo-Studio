@@ -13,3 +13,4 @@ SORT file.name ASC
 
 - [[Current Portfolio]]
 - [[Template Index]]
+- [[Playbook - Project Onboarding]]

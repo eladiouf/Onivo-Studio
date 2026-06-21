@@ -2,9 +2,9 @@
 
 ## Executing
 
-- stabilize the NeoForge 1.21.1 branch as the active product line
-- continue unified progression architecture across combat, perks, and magic
-- onboard Iron's Spellbooks as the next major magic runtime integration
+- [[2026-06-21 - STAT Mod Release Identity Alignment Mission]]
+- [[2026-06-21 - STAT Mod Verification Baseline Sweep Mission]]
+- [[2026-06-21 - STAT Mod Iron's Spellbooks Vertical Slice Mission]]
 
 ## Follow Soon
 

@@ -12,3 +12,7 @@
 - confirm actual dependency set from `libs/` and runtime branch
 - align store copy, README, and changelog before shipping
 - treat release docs as part of the product, not an afterthought
+
+## Live Control Surface
+
+- `vault/07 Publishing/2026-06-21 - STAT Mod Release Readiness Track.md`

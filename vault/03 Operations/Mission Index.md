@@ -8,3 +8,9 @@ FROM "vault/03 Operations"
 WHERE type = "mission" AND file.name != "Mission Index"
 SORT next_review ASC, priority ASC
 ```
+
+## Related Surfaces
+
+- [[Mission Radar]]
+- [[Risk Register]]
+- [[Weekly Strategy Board]]

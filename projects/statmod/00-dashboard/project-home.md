@@ -35,3 +35,12 @@
 - `04-execution/`
 - `05-quality/`
 - `06-release/`
+
+## Live Studio Control Surfaces
+
+- `vault/02 Strategy/2026-06-21 - STAT Mod Weekly Strategy Review.md`
+- `vault/08 Decisions/2026-06-21 - STAT Mod NeoForge Runtime Truth.md`
+- `vault/03 Operations/2026-06-21 - STAT Mod Release Identity Alignment Mission.md`
+- `vault/03 Operations/2026-06-21 - STAT Mod Verification Baseline Sweep Mission.md`
+- `vault/03 Operations/2026-06-21 - STAT Mod Iron's Spellbooks Vertical Slice Mission.md`
+- `vault/07 Publishing/2026-06-21 - STAT Mod Release Readiness Track.md`

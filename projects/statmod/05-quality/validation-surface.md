@@ -6,6 +6,8 @@
 - Gradle `test`
 - Gradle `build`
 - Gradle `runClient` when runtime behavior must be checked
+- `vault/03 Operations/2026-06-21 - STAT Mod Verification Baseline Sweep Mission.md`
+- `vault/07 Publishing/2026-06-21 - STAT Mod Release Readiness Track.md`
 
 ## Known Pressure
 

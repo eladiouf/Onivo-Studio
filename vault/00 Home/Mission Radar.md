@@ -7,7 +7,7 @@ This page is the central execution radar for active work.
 ```dataview
 TABLE mission_type, status, owner, target_project, priority, next_review
 FROM "vault/03 Operations"
-WHERE type = "mission"
+WHERE type = "mission" AND file.name != "Mission Index"
 SORT next_review ASC, file.name ASC
 ```
 
