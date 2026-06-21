@@ -20,11 +20,12 @@ Current release-preparation surface for the active `NeoForge 1.21.1` line.
 
 ## Readiness
 
-- Build: not yet re-verified from the studio control surface
-- QA: pending [[2026-06-21 - STAT Mod Verification Baseline Sweep Mission]]
+- Build: `.\gradlew.bat build` passed on the active branch baseline
+- QA: `.\gradlew.bat test` passed on the active branch baseline
 - Runtime identity: aligned in `README.md` and metadata through project commit `e0e1073`
 - Store assets: not reviewed on the active branch line
 - Changelog: not curated for the current release line
+- Runtime validation: no fresh `runClient` evidence recorded in this studio pass
 
 ## Risks
 
@@ -37,3 +38,7 @@ Current release-preparation surface for the active `NeoForge 1.21.1` line.
 Do not treat the branch as release-ready until runtime truth, verification evidence, and dependency floors are aligned.
 
 The main public release identity drift is no longer the primary blocker. Verification and dependency confidence now dominate the release picture.
+
+Current technical note:
+
+- NeoGradle emits a deprecation warning about `Run.getProgramArguments()`, recommending `getArguments()`

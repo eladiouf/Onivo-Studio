@@ -14,3 +14,10 @@
 - external mod APIs and mixins can drift
 - large integration slices can leave documentation behind
 - local logs and scratch artifacts can obscure signal during audits
+
+## Current Baseline
+
+- `.\gradlew.bat test` passed on the active branch
+- `.\gradlew.bat build` passed on the active branch
+- NeoGradle warns that `Run.getProgramArguments()` is deprecated
+- no fresh `runClient` evidence was collected in this studio pass
