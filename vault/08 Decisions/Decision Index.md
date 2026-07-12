@@ -13,6 +13,19 @@ This page indexes important studio and project decisions.
 | `STAT-DEC-004` | 2026-06-21 | studio-operations | STAT Mod onboarding into Onivo Studio complete |
 | `STAT-DEC-005` | 2026-06-21 | documentation-taxonomy | `docs/superpowers/plans/` canonical, `.opencode/plans/` deprecated |
 | `STAT-DEC-006` | 2026-06-21 | delivery-sequencing | Mission prioritization sequence locked |
+| `STAT-DEC-007` | 2026-06-22 | quality | Test vs fix priority for XP handlers |
+| `STAT-DEC-008` | 2026-06-22 | config | Wire 4 dead config values to runtime |
+| `STAT-DEC-009` | 2026-06-22 | perks | Fix True Strike + 5 tooltip mismatches |
+| `STAT-DEC-010` | 2026-06-22 | progression | Global level excludes locked magic stats |
+| `STAT-DEC-011` | 2026-06-22 | progression | Non-combat XP for 9 magic stats |
+| `STAT-DEC-012` | 2026-06-22 | progression | Fix kodachi misclassification |
+| `STAT-DEC-013` | 2026-06-22 | cleanup | Delete dead code (ProgressionRouting, ActionType, Config.register) |
+| `STAT-DEC-014` | 2026-06-22 | performance | Fix memory leaks in static maps |
+| `STAT-DEC-MAGIC-UNIFIED-ECONOMY` | 2026-06 | magic-economy | Monnaie unique `magicPoints` + 3 gates de stats par nœud (record repo, CLAUDE.md) |
+| `STAT-DEC-PHASE-GATING` | 2026-06 | magic-scope | 9 écoles structurellement actives, tuning Fire d'abord (record repo, CLAUDE.md) |
+| `STAT-DEC-OVERGEARED-EXPANSION` | 2026-06-30 | integration-overgeared | Mission M5 Universal Forge greenlight (record repo, spec 2026-06-30) |
+| `STAT-DEC-TRIAL-DUNGEON` | 2026-07-03 | product-scope | Mission M6 Trial Dungeon greenlight — [[2026-07-03 - STAT Mod Trial Dungeon Greenlight]] |
+| `STAT-DEC-PUBLIC-DISTRIBUTION` | 2026-07-12 | publishing | Release publique bêta Modrinth + CurseForge — [[2026-07-12 - STAT Mod Public Distribution]] |
 
 ## Dataview (auto)
 
@@ -28,3 +41,4 @@ SORT date DESC
 | Id | Date | Type |
 |---|---|---|
 | `STAT-MTG-001` | 2026-06-21 | Plenary — Milestone Review + Exception Council |
+| `STAT-MTG-002` | 2026-06-22 | Technical Audit Plenary — Stat Leveling System |

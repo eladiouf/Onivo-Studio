@@ -3,5 +3,6 @@
   "templater-obsidian",
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
-  "obsidian-tasks-plugin"
+  "obsidian-tasks-plugin",
+  "graph-heatmap"
 ]

@@ -18,7 +18,9 @@
 
 - Iron's Spellbooks unified magic tree Phase 1 — **active build** (`M4`)
 - Code-review re-verification — **active audit** (`M9`)
-- release-readiness is gated on closure of `M5`, `M9`
+- XP handlers test suite — **active** (`M11`)
+- Hotfix batch — True Strike, tooltips, kodachi, memory leaks — **active** (`M12`)
+- release-readiness is gated on closure of `M5`, `M9`, `M11`
 - governance-resolution missions `M3`, `M6`, `M1`, `M8` closed 2026-06-21
 
 ## Last Ops Cycle (2026-06-21)
@@ -46,6 +48,12 @@ Four missions closed in same-day pass : `M3`, `M6`, `M1`, `M8`. See `vault/03 Op
 - no integration tests against real Iron's Spellbooks 3.16.1 runtime — `M5` queued
 - deprecated `Run.getProgramArguments()` in build config remains
 - mixin diff (`statmod.mixins.json` + `SwordSoaringClientModEventsMixin` deletion) appeared during sweep — to investigate
+- **`True Strike` bug** (armor corruption) — `M12` hotfix in progress — `STAT-DEC-009`
+- **5 perk tooltip mismatches** — `M12` hotfix in progress — `STAT-DEC-009`
+- **4 config values dead** — `M13` queued after `M11` — `STAT-DEC-008`
+- **No XP path for 9 magic stats** — `M4.5` queued after `M12` — `STAT-DEC-011`
+- **Global level broken for non-magic builds** — formula fix in `M4.5` — `STAT-DEC-010`
+- **Memory leaks in 3 static maps** — `M12` hotfix — `STAT-DEC-014`
 
 ## Main Entry Surfaces
 

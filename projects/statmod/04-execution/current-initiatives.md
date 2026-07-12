@@ -6,7 +6,7 @@
 
 ## Active (this cycle)
 
-- **M4** — Iron's Spellbooks unified magic tree Phase 1 continuation — owner Build Cell — plan `docs/superpowers/plans/2026-06-21-irons-spellbooks-unified-magic-tree.md` — promoted to active after `M3`/`M6` closure on 2026-06-21
+- **M4** — Iron's Spellbooks unified magic tree Phase 1 continuation — owner Build Cell — plan `docs/superpowers/plans/2026-06-21-irons-spellbooks-unified-magic-tree.md`
 - **M9** — Catalogue and re-verify the 10 issues fixed in commit `065d57a` — owner Verification Cell
 
 ## Queued
@@ -14,6 +14,13 @@
 - **M5** — Iron's Spellbooks 3.16.1 runtime integration tests + `PlayerStatData` save migration tests — owner Verification Cell
 - **M2** — Worktree cleanup (`.bak`, generated artefacts, unrelated log diffs, empty package dirs `integration/mahou/`, `integration/elementals/`) — owner Build Cell
 - **M10** — Mod compatibility matrix with `removed` rows for Mahou and Elementals — owner Product Cell
+
+## Just Closed (2026-06-22)
+
+- **M11** — Tests XP handlers (60 tests, tous passent) — closed per STAT-MTG-002 — `STAT-DEC-007`
+- **M12** — Hotfix batch (True Strike, 5 tooltips, Kodachi, 3 memory leaks) — closed per STAT-MTG-002 — `STAT-DEC-009`, `STAT-DEC-012`, `STAT-DEC-014`
+- **M4.5** — XP non-combat pour 9 stats magiques + global level fix — closed per STAT-MTG-002 — `STAT-DEC-010`, `STAT-DEC-011`
+- **M13** — Wiring 4 configs + dead code cleanup + CLAUDE.md — closed per STAT-MTG-002 — `STAT-DEC-008`, `STAT-DEC-013`
 
 ## Just Closed (2026-06-21)
 
